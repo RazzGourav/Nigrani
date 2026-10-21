@@ -1,0 +1,63 @@
+/* NIGRANI Design Tokens - GIGW 3.0 & WCAG 2.1 AA Compliant */
+:root {
+  /* Brand & Government Identity */
+  --color-primary-navy: #15324B;
+  --color-gov-blue: #0B65A3;
+  --color-dark-blue: #084C78;
+  --color-gov-blue-subtle: #EBF4FA;
+  --color-teal: #137C78;
+  --color-teal-subtle: #E6F5F4;
+
+  /* State Tokens (Text + Surface + Border) */
+  --color-amber-text: #9A5A00;
+  --color-amber-bg: #FFFBEB;
+  --color-amber-border: #FDE68A;
+
+  --color-red-text: #B42318;
+  --color-red-bg: #FEF2F2;
+  --color-red-border: #FECACA;
+
+  --color-green-text: #216E4E;
+  --color-green-bg: #ECFDF5;
+  --color-green-border: #A7F3D0;
+
+  --color-neutral-text: #475467;
+  --color-neutral-bg: #F2F4F7;
+  --color-neutral-border: #D0D5DD;
+
+  --color-purple-text: #6941C6;
+  --color-purple-bg: #F9F5FF;
+  --color-purple-border: #E9D7FE;
+
+  /* Surfaces & Canvas */
+  --color-page-bg: #F4F6F8;
+  --color-surface: #FFFFFF;
+  --color-surface-hover: #F8FAFC;
+  --color-border: #D5DDE5;
+  --color-border-subtle: #E2E8F0;
+
+  /* Typography */
+  --color-text-main: #172B3A;
+  --color-text-muted: #526575;
+  --color-text-light: #7E92A2;
+  --color-text-white: #FFFFFF;
+
+  /* Focus & Accessibility */
+  --focus-ring: 0 0 0 3px rgba(11, 101, 163, 0.35);
+  --focus-outline: 2px solid #0B65A3;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(16, 24, 40, 0.1), 0 2px 4px -2px rgba(16, 24, 40, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(16, 24, 40, 0.1), 0 4px 6px -4px rgba(16, 24, 40, 0.05);
+
+  /* Border Radius (Restrained 4-8px per PRD 6.4) */
+  --radius-xs: 3px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+
+  /* Fonts */
+  --font-sans: 'Inter', 'Noto Sans Devanagari', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
